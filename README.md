@@ -12,13 +12,13 @@ Survivedのデータと関連が深そうな
 SVM・・・62.2％
 
 
-#titanic_model3
+# titanic_model3
 上記のモデルに「家族の人数」「チケットの重複数」「敬称」の特徴量を追加したもの
 識別器にはランダムフォレストを利用（一番汎か性能が高かったため）
 Score　・・・　78.5%
 
 
-#titanic_model4
+# titanic_model4
 上記のランダムフォレストのパラメータをGridSearchでチューニングしたもの
 
 ベストのパラメータは
